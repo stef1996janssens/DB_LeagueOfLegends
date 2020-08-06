@@ -14,12 +14,11 @@ namespace Model.Entities
 		public int BlueEssencePrice { get; set; }
 		public int RiotPointPrice { get; set; }
 
-
-
 		// ---------------------
 		// Navigation Properties
 		// ---------------------
 		public virtual ICollection<Skin> Skins { get; set; } = new List<Skin>();
+		public virtual RegionNames Region { get; set; }
 
 	}
 }

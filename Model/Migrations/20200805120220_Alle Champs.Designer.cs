@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Model.Repositories;
 
 namespace Model.Migrations
 {
     [DbContext(typeof(LeagueOfLegendsContext))]
-    partial class LeagueOfLegendsContextModelSnapshot : ModelSnapshot
+    [Migration("20200805120220_Alle Champs")]
+    partial class AlleChamps
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -44,989 +46,989 @@ namespace Model.Migrations
                         new
                         {
                             ChampionId = 1,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Aatrox",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 2,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Ahri",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 3,
-                            BlueEssencePrice = 3150,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Akali",
-                            RiotPointPrice = 790
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 4,
-                            BlueEssencePrice = 1350,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Alistar",
-                            RiotPointPrice = 585
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 5,
-                            BlueEssencePrice = 450,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Amumu",
-                            RiotPointPrice = 260
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 6,
-                            BlueEssencePrice = 3150,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Anivia",
-                            RiotPointPrice = 790
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 7,
-                            BlueEssencePrice = 450,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Annie",
-                            RiotPointPrice = 260
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 8,
-                            BlueEssencePrice = 6300,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Aphelios",
-                            RiotPointPrice = 975
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 9,
-                            BlueEssencePrice = 450,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Ashe",
-                            RiotPointPrice = 260
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 10,
-                            BlueEssencePrice = 6300,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Aurelion Sol",
-                            RiotPointPrice = 975
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 11,
-                            BlueEssencePrice = 6300,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Azir",
-                            RiotPointPrice = 975
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 12,
-                            BlueEssencePrice = 6300,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Bard",
-                            RiotPointPrice = 975
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 13,
-                            BlueEssencePrice = 3150,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Blitzcrank",
-                            RiotPointPrice = 790
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 14,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Brand",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 15,
-                            BlueEssencePrice = 6300,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Braum",
-                            RiotPointPrice = 975
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 16,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Caitlyn",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 17,
-                            BlueEssencePrice = 6300,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Camille",
-                            RiotPointPrice = 975
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 18,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Cassiopeia",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 19,
-                            BlueEssencePrice = 1350,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Cho'Gath",
-                            RiotPointPrice = 585
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 20,
-                            BlueEssencePrice = 3150,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Corki",
-                            RiotPointPrice = 790
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 21,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Darius",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 22,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Diana",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 23,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Draven",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 24,
-                            BlueEssencePrice = 450,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Dr. Mundo",
-                            RiotPointPrice = 260
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 25,
-                            BlueEssencePrice = 6300,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Ekko",
-                            RiotPointPrice = 975
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 26,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Elise",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 27,
-                            BlueEssencePrice = 1350,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Evelynn",
-                            RiotPointPrice = 585
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 28,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Ezreal",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 29,
-                            BlueEssencePrice = 1350,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Fiddlesticks",
-                            RiotPointPrice = 585
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 30,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Fiora",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 31,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Fizz",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 32,
-                            BlueEssencePrice = 3150,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Galio",
-                            RiotPointPrice = 790
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 33,
-                            BlueEssencePrice = 3150,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Gangplank",
-                            RiotPointPrice = 790
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 34,
-                            BlueEssencePrice = 450,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Garen",
-                            RiotPointPrice = 260
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 35,
-                            BlueEssencePrice = 6300,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Gnar",
-                            RiotPointPrice = 975
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 36,
-                            BlueEssencePrice = 3150,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Gragas",
-                            RiotPointPrice = 790
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 37,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Graves",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 38,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Hecarim",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 39,
-                            BlueEssencePrice = 3150,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Heimerdinger",
-                            RiotPointPrice = 790
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 40,
-                            BlueEssencePrice = 6300,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Illaoi",
-                            RiotPointPrice = 975
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 41,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Irelia",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 42,
-                            BlueEssencePrice = 6300,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Ivern",
-                            RiotPointPrice = 975
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 43,
-                            BlueEssencePrice = 1350,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Janna",
-                            RiotPointPrice = 585
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 44,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Jarvan IV",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 45,
-                            BlueEssencePrice = 1350,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Jax",
-                            RiotPointPrice = 585
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 46,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Jayce",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 47,
-                            BlueEssencePrice = 6300,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Jhin",
-                            RiotPointPrice = 975
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 48,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Jinx",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 49,
-                            BlueEssencePrice = 6300,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Kai'Sa",
-                            RiotPointPrice = 975
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 50,
-                            BlueEssencePrice = 6300,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Kalista",
-                            RiotPointPrice = 975
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 51,
-                            BlueEssencePrice = 3150,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Karma",
-                            RiotPointPrice = 790
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 52,
-                            BlueEssencePrice = 3150,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Karthus",
-                            RiotPointPrice = 790
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 53,
-                            BlueEssencePrice = 3150,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Kassadin",
-                            RiotPointPrice = 790
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 54,
-                            BlueEssencePrice = 3150,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Katarina",
-                            RiotPointPrice = 790
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 55,
-                            BlueEssencePrice = 450,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Kayle",
-                            RiotPointPrice = 260
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 56,
-                            BlueEssencePrice = 6300,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Kayn",
-                            RiotPointPrice = 975
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 57,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Kennen",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 58,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Kha'Zix",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 59,
-                            BlueEssencePrice = 6300,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Kindred",
-                            RiotPointPrice = 975
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 60,
-                            BlueEssencePrice = 6300,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Kled",
-                            RiotPointPrice = 975
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 61,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Kog'Maw",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 62,
-                            BlueEssencePrice = 3150,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "LeBlanc",
-                            RiotPointPrice = 790
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 63,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Lee Sin",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 64,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Leona",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 65,
-                            BlueEssencePrice = 6300,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Lillia",
-                            RiotPointPrice = 975
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 66,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Lissandra",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 67,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Lucian",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 68,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Lulu",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 69,
-                            BlueEssencePrice = 3150,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Lux",
-                            RiotPointPrice = 790
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 70,
-                            BlueEssencePrice = 1350,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Malphite",
-                            RiotPointPrice = 585
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 71,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Malzahar",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 72,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Maokai",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 73,
-                            BlueEssencePrice = 450,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Master Yi",
-                            RiotPointPrice = 260
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 74,
-                            BlueEssencePrice = 3150,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Miss Fortune",
-                            RiotPointPrice = 790
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 75,
-                            BlueEssencePrice = 1350,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Mordekaiser",
-                            RiotPointPrice = 585
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 76,
-                            BlueEssencePrice = 1350,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Morgana",
-                            RiotPointPrice = 585
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 77,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Nami",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 78,
-                            BlueEssencePrice = 1350,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Nasus",
-                            RiotPointPrice = 585
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 79,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Nautilus",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 80,
-                            BlueEssencePrice = 6300,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Neeko",
-                            RiotPointPrice = 975
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 81,
-                            BlueEssencePrice = 3150,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Nidalee",
-                            RiotPointPrice = 790
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 82,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Nocturne",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 83,
-                            BlueEssencePrice = 450,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Nunu & Willump",
-                            RiotPointPrice = 260
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 84,
-                            BlueEssencePrice = 3150,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Olaf",
-                            RiotPointPrice = 790
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 85,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Orianna",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 86,
-                            BlueEssencePrice = 6300,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Ornn",
-                            RiotPointPrice = 975
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 87,
-                            BlueEssencePrice = 3150,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Pantheon",
-                            RiotPointPrice = 790
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 88,
-                            BlueEssencePrice = 450,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Poppy",
-                            RiotPointPrice = 260
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 89,
-                            BlueEssencePrice = 6300,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Pyke",
-                            RiotPointPrice = 975
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 90,
-                            BlueEssencePrice = 6300,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Qiyana",
-                            RiotPointPrice = 975
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 91,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Quinn",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 92,
-                            BlueEssencePrice = 6300,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Rakan",
-                            RiotPointPrice = 975
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 93,
-                            BlueEssencePrice = 1350,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Rammus",
-                            RiotPointPrice = 585
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 94,
-                            BlueEssencePrice = 6300,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Rek'Sai",
-                            RiotPointPrice = 975
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 95,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Renekton",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 96,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Rengar",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 97,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Riven",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 98,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Rumble",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 99,
-                            BlueEssencePrice = 450,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Ryze",
-                            RiotPointPrice = 260
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 100,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Sejuani",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 101,
-                            BlueEssencePrice = 6300,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Senna",
-                            RiotPointPrice = 975
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 102,
-                            BlueEssencePrice = 6300,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Sett",
-                            RiotPointPrice = 975
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 103,
-                            BlueEssencePrice = 3150,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Shaco",
-                            RiotPointPrice = 790
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 104,
-                            BlueEssencePrice = 3150,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Shen",
-                            RiotPointPrice = 790
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 105,
-                            BlueEssencePrice = 3150,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Shyvana",
-                            RiotPointPrice = 790
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 106,
-                            BlueEssencePrice = 450,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Singed",
-                            RiotPointPrice = 260
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 107,
-                            BlueEssencePrice = 1350,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Sion",
-                            RiotPointPrice = 585
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 108,
-                            BlueEssencePrice = 450,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Sivir",
-                            RiotPointPrice = 260
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 109,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Skarner",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 110,
-                            BlueEssencePrice = 3150,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Sona",
-                            RiotPointPrice = 790
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 111,
-                            BlueEssencePrice = 450,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Soraka",
-                            RiotPointPrice = 260
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 112,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Swain",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 113,
-                            BlueEssencePrice = 6300,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Sylas",
-                            RiotPointPrice = 975
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 114,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Syndra",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 115,
-                            BlueEssencePrice = 6300,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Tahm Kench",
-                            RiotPointPrice = 975
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 116,
-                            BlueEssencePrice = 6300,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Taliyah",
-                            RiotPointPrice = 975
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 117,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Talon",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 118,
-                            BlueEssencePrice = 1350,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Taric",
-                            RiotPointPrice = 585
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 119,
-                            BlueEssencePrice = 1350,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Teemo",
-                            RiotPointPrice = 585
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 120,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Thresh",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 121,
-                            BlueEssencePrice = 1350,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Tristana",
-                            RiotPointPrice = 585
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 122,
-                            BlueEssencePrice = 3150,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Trundle",
-                            RiotPointPrice = 790
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 123,
-                            BlueEssencePrice = 1350,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Tryndamere",
-                            RiotPointPrice = 585
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 124,
-                            BlueEssencePrice = 1350,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Twisted Fate",
-                            RiotPointPrice = 585
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 125,
-                            BlueEssencePrice = 3150,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Twitch",
-                            RiotPointPrice = 790
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 126,
-                            BlueEssencePrice = 1350,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Udyr",
-                            RiotPointPrice = 585
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 127,
-                            BlueEssencePrice = 3150,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Urgot",
-                            RiotPointPrice = 790
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 128,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Varus",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 129,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Vayne",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 130,
-                            BlueEssencePrice = 1350,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Veigar",
-                            RiotPointPrice = 585
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 131,
-                            BlueEssencePrice = 6300,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Vel'Koz",
-                            RiotPointPrice = 975
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 132,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Vi",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 133,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Viktor",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 134,
-                            BlueEssencePrice = 3150,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Vladimir",
-                            RiotPointPrice = 790
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 135,
-                            BlueEssencePrice = 3150,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Volibear",
-                            RiotPointPrice = 790
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 136,
-                            BlueEssencePrice = 450,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Warwick",
-                            RiotPointPrice = 260
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 137,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Wukong",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 138,
-                            BlueEssencePrice = 6300,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Xayah",
-                            RiotPointPrice = 975
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 139,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Xerath",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 140,
-                            BlueEssencePrice = 1350,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Xin Zhao",
-                            RiotPointPrice = 585
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 141,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Yasuo",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
@@ -1038,58 +1040,58 @@ namespace Model.Migrations
                         new
                         {
                             ChampionId = 143,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Yorick",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 144,
-                            BlueEssencePrice = 6300,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Yuumi",
-                            RiotPointPrice = 975
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 145,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Zac",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 146,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Zed",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 147,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Ziggs",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 148,
-                            BlueEssencePrice = 1350,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Zilean",
-                            RiotPointPrice = 585
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 149,
-                            BlueEssencePrice = 6300,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Zoe",
-                            RiotPointPrice = 975
+                            RiotPointPrice = 0
                         },
                         new
                         {
                             ChampionId = 150,
-                            BlueEssencePrice = 4800,
+                            BlueEssencePrice = 0,
                             ChampionNaam = "Zyra",
-                            RiotPointPrice = 880
+                            RiotPointPrice = 0
                         });
                 });
 
